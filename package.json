@@ -1,0 +1,23 @@
+{
+  "name": "onchain-pulse-studio",
+  "version": "1.0.0",
+  "description": "One-person on-chain finance business dashboard powered by SoSoValue and SoDEX.",
+  "type": "commonjs",
+  "engines": {
+    "node": "^20.9.0 || ^22.11.0 || ^24"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node scripts/check-env.js"
+  },
+  "keywords": [
+    "sosovalue",
+    "sodex",
+    "on-chain",
+    "finance",
+    "dashboard"
+  ],
+  "license": "MIT"
+}
